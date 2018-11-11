@@ -1,2 +1,0 @@
-import name
-reload(name)
