@@ -6,9 +6,9 @@ Because this is a modular rigging tool, you can use it to rig any type of creatu
 arms, 2 spines and multi legs.		
 
 # How to install:
-1. Download the project file and unzip it somewhere in the computer, make ture to remember the directory of the unzip file location;		    
-2. Open Maya 2017+ and open script Editor;		    
-3. New a Python tab, and enter following scrip;		    
+1. Download the project file and unzip it somewhere in the computer, make ture to remember the directory of the unzip file location		
+2. Open Maya 2017+ and open script Editor		    
+3. New a Python tab, and enter following script 		    
 
 Dir = 'X:\WHERE\YOU\PUT\THE\FILE'		    
 import sys		
