@@ -28,4 +28,4 @@ I will record a video for using this script. To be continued...
 # Bugs:
 If you find any type of bugs, please e-mail me at: razer_mamba@qq.com.    
     
-If you like this script, please STAR this repository. Thank you very much.    
+If you like this, please STAR this repository. Thank you very much.    
