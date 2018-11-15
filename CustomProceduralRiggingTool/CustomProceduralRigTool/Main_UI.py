@@ -216,6 +216,11 @@ class RiggingMainUI(QtWidgets.QWidget):
         self.selAllJointBtn.clicked.connect(self.selAllJnt)
         self.jointFrameLayout.addWidget(self.selAllJointBtn)
 
+        # hierarchy
+        self.selHierarchyBtn = QtWidgets.QPushButton('Select Hierarchy')
+        self.selHierarchyBtn.clicked.connect(self.selHierarchy)
+        self.jointFrameLayout.addWidget(self.selHierarchyBtn)
+
         # joints LRA
         self.jointLRABtn = QtWidgets.QPushButton('Toggle Joints LRA')
         self.jointLRABtn.clicked.connect(self.toggleLRA)
@@ -986,6 +991,14 @@ class RiggingMainUI(QtWidgets.QWidget):
             self.polyCountLabel.setText('Poly Counts: %s Non-Manifold(s)' % str(int(bGCount)))
         except:
             self.polyCountLabel.setText('Please Select a Mesh!')
+
+    def selHierarchy(self):
+
+        sel = cmds.ls(sl=1, type='joint')
+        cmds.select(cl=1)
+
+        cmds.select(sel[0])
+        mel.eval('SelectHierarchy;')
 
     def selAllJnt(self):
 
