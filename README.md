@@ -26,6 +26,6 @@ UI = Main_UI.RiggingMainUI(dock=1)
 I will record a video for using this script. To be continued...    
 
 # Bugs:
-If you find any type of bugs, please e-mail me at: razer_mamba@qq.com.    
+If you find any type of bugs, please e-mail me at: 328665042@qq.com.    
     
 If you like, please STAR this repository. Thank you very much.    
